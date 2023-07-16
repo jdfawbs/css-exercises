@@ -12,8 +12,34 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
 }
 
+.left-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.right-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0px;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -27,6 +53,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin: 0px;
+  padding: 0px;
 }
 
 button {
